@@ -15,7 +15,7 @@ This was a team project, under the guidance of creditors from Credit Suisse.
 
 ### Jupyter Notebook Analysis
 
-For a view of the project's methodology, including data preprocessing and detailed code, please refer to the Jupyter Notebook. The notebook is extensive, it has plots from the LIME and DiCE analyses and is organized into sections for easier navigation.  [Google Colab](#).
+For a view of the project's methodology, including data preprocessing and detailed code, please refer to the Jupyter Notebook. The notebook is extensive, it has plots from the LIME and DiCE analyses and is organized into sections for easier navigation.  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gi1D5-H4thwDnxvRcyL5vh0pgSK0Be0N)
 
 ### Project Presentation
 
