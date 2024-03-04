@@ -1,9 +1,11 @@
-# Credit Risk AI Model Explainability
-Investigating AI explainability in credit risk models by utilising LIME and DiCE methods.
+# Credit Risk ML Model Explainability
+Investigating Machine Learning explainability in credit risk models by utilising LIME and DiCE methods.
 
-This project investigates the realm of AI explainability with credit risk models, utilizing the [Freddie Mac dataset](https://www.freddiemac.com/research/datasets/sf-loanlevel-dataset). It focuses on preprocessing and analyzing credit risk data for default and non-default loans, employing machine learning classifiers to understand classification performance in an imbalanced scenario. The core of the project explores model explainability through the application of [LIME (Local Interpretable Model-agnostic Explanations)](https://arxiv.org/abs/1602.04938) and [DiCE (Diverse Counterfactual Explanations)](https://arxiv.org/abs/1905.07697) methods. It is an exploration of AI explainability in credit risk management, demonstrating the application of interpretability tools to provide transparency and accountability in financial modeling.
+This project investigates the realm of Machine Learning explainability with credit risk models, utilizing the [Freddie Mac dataset](https://www.freddiemac.com/research/datasets/sf-loanlevel-dataset). It focuses on preprocessing and analyzing credit risk data for default and non-default loans, employing machine learning classifiers to understand classification performance in an imbalanced scenario. The core of the project explores model explainability through the application of [LIME (Local Interpretable Model-agnostic Explanations)](https://arxiv.org/abs/1602.04938) and [DiCE (Diverse Counterfactual Explanations)](https://arxiv.org/abs/1905.07697) methods. It is an exploration of AI explainability in credit risk management, demonstrating the application of interpretability tools to provide transparency and accountability in financial modeling.
 
-More precisely through LIME, it showcases how each feature influences the final decision, illustrated by a case study where a candidate with a high credit score is analyzed to uncover underlying risk factors. 
+More precisely, we train a simple set of Ml classifiers and we use a Random Forest as a baseline to explore the LIME and DiCE methods.
+
+Through LIME, it showcases how each feature influences the final decision, illustrated by a case study where a candidate with a high credit score is analyzed to uncover underlying risk factors. 
 
 DiCE complements this by proposing hypothetical scenarios that could pivot the model's decision, offering tangible 'what-if' narratives that highlight potential paths to favorable outcomes without changing the underlying model.
 
